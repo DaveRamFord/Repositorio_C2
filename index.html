@@ -8,27 +8,35 @@
     <title>APP ALUMNOS OFFLINE</title>
 </head>
 <body>
+    <center>
     <p>APP ALUMNOS OFFLINE</p>
     <form method="post" id="frmAlumno">
+        
         <div class="container">
             <div class="fila">
                 <input pattern="^[A-Z]{4}[0-9]{6}" required type="text" placeholder="Codigo" id="txtCodigoAlumno">
             </div>
+            <p>
             <div required class="fila">
                 <input pattern="[A-Za-zñÑ ]{3,65}" required type="text" placeholder="Nombre" id="txtNombreAlumno">
             </div>
+        </p>
             <div class="fila">
                 <input required type="text" placeholder="Direccion" id="txtDireccionAlumno">
             </div>
+            <p>
             <div class="fila">
                 <input pattern="[0-9]{4}-[0-9]{4}" required type="text" placeholder="Telefono" id="txtTelefonoAlumno">
             </div>
+            <p>
             <div class="fila">
                 <input type="submit" value="Guardar" id="txtGuardarAlumno">
                 <input type="button" id="btnRecuperarAlumnos" value="Recuperar">
             </div>
+            <p>
         </div>
     </form>  
     <script src="app.js"></script>
+</center>
 </body>
 </html>

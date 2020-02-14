@@ -2,10 +2,14 @@
 body{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/bici1.jpg);
+    background-size: 100%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 input, textarea{
     height: 24px;
-    border: solid 1px rgb(158, 200, 255);
+    border: solid 1px rgb(0, 255, 34);
     border-radius: 5px;
 }
 textarea{
@@ -33,5 +37,5 @@ input[type=date]:valid{
 input[type=text]:invalid, 
 textarea:invalid,
 input[type=date]:invalid{
-    background-color: rgb(255, 172, 172);
+    background-color: rgb(255, 0, 0);
 }
